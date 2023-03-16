@@ -1,35 +1,111 @@
-
+*{
+    box-sizing: border-box;
+}
 body {
     
     background-image: url("bg.jpg") ;
 }
+.menu{
+    background-color: rgb(255, 0, 0);
+   text-align: center;
+}
 .top{
-    color: rgb(247, 0, 0);
+    color: white;
     font-size: 50px;
     text-align:center;
-    background-color: transparent;
+    background-color: rgb(240, 195, 154);
     border: 1px slategray;
     display: block;
-    
+    font-family: arial;
     text-decoration: none;
-
-
+    margin-bottom: 20px;
+ 
 }
-
-ul a{
-    color: rgb(252, 0, 0);
-    font-size: 25px;
-    text-align: left;
-    background-color: transparent;
-    border: 1px slategray;
-    text-decoration: none;
-    display: block;
-    width: 120px;
-    list-style: none;
-margin: 3px;
-}
-ul a:hover{
+ .top:hover{
     background-color: rgb(238, 135, 39);
-    font-size: 30px;
+    animation-name: slide;
+    transition: 500ms linear;
+}
 
+div a{
+    color: white;
+    font-size: 25px;
+ 
+    background-color: red;
+    border: 1px slategray;
+    text-decoration: none;
+
+    font-style: italic;
+   
+    margin: 3px;
+}
+div a:hover{
+    background-color: rgb(238, 135, 39);
+    font-size: 40px;
+    transition: 500ms ease-in-out;
+   
+}
+body{
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-style: italic;
+    font-size: 10PX;
+   box-sizing: border-box;
+}
+    
+.sndouk{
+    float: left;
+    margin: 20px;
+    padding: 27px 40px 50px 40px;
+    background-color: rgb(240, 72, 31);
+    width: 289px;
+    height: 250px;
+    border: 4px double  rgb(250, 250, 250);  
+    
+}
+
+#sndok2{
+    float: right;
+    border: 10px double  rgb(0, 0, 0);  
+    margin: 20px;
+    padding:  43px 40px 50px 60px;
+    background-color: pink;
+    width: 289px;
+    height: 250px
+    
+}
+.nig{
+    
+    
+    background-color: rgb(202, 22, 52);
+    width: fit-content;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
+}
+
+#Best{
+    background-color:  rgb(100, 130, 30);
+    color: black;
+border: 1px slategray;
+display: block;
+width: 200px;
+padding: 10px;
+}
+#goat{
+    background-color:  rgb(200, 230, 30);
+    color: black;
+border: 1px slategray;
+display: block;
+width: 200px;
+padding: 10px;
+}
+#men{
+    background-color:  rgb(300, 330, 30);
+    color: black;
+border: 1px slategray;
+display: block;
+width: 200px;
+padding: 10px;
 }
