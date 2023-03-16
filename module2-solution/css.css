@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+header{
+  
+    display: block;
+    position: relative;
+ text-align: center;
+
+}
+h1{
+    clear: right;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 100;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-weight: bolder;
+    font-size: 50px;
+ margin-bottom: 70px;
+}
+
+body{
+    background-color: rgb(245, 242, 239);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Chicken{
+    background-color:gray;
+  float: left;
+    display: block;
+    width: 30.33%;
+    border: 1px solid black;
+    margin: 1.5%;
+    
+}
+.Beef{
+    background-color:gray;
+   float: left;
+    display: block;
+    width: 30.33%;
+    border: 1px solid black;
+   margin: 1.5%;
+  
+}
+.Sushi{
+    background-color:gray;
+    float: left;
+    display: block;
+    width: 30.33%;
+    border: 1px solid black;
+    margin: 1.5%;
+
+    
+}
+.ch{
+    background-color:pink;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    float: right;
+    display: flex;
+    width: 190px;
+    height: 45px;
+    font-size: 150%;
+    font-weight: bold;
+    border: 2px solid black;
+  
+}
+.be{
+    background-color:salmon;
+    color: white;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    float: right;
+    display: flex;
+    width: 190px;
+    height: 45px;
+    font-size: 150%;
+    font-weight: bold;
+    border: 2px solid black;
+    
+}
+.sh{
+    background-color:yellow;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    float: right;
+    display: flex;
+    width: 190px;
+    height: 45px;
+    font-size: 150%;
+    font-weight: bold;
+    border: 2px solid black;
+  
+}
+/*   In the desktop view (992px and above)       */
+@media (min-width: 992px){
+    .Chicken{
+     width: 30.33%;
+    }
+  .Beef{
+    width: 30.33%;
+    }
+
+.Sushi{
+    width: 30.33%;
+    }
+}
+    
+
+/*  In the tablet view (between 768px and 991px, inclusively)       */
+@media (min-width: 768px) and (max-width:991px){
+    .Chicken{
+    width: 45.5%;
+    
+    }
+  .Beef{
+    width: 45.5%;
+    
+    }
+
+.Sushi{
+    width: 94%;
+    }
+}
+    
+/*   In the mobile view (equal to or less than 767px)        */
+@media (max-width:767px){
+    .Chicken{
+        width: 100%;
+        float: left;
+    }
+  .Beef{
+    width: 100%;
+    float: left;
+    }
+
+.Sushi{
+    width: 100%;
+    float: left;
+    }
+}
