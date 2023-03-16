@@ -16,15 +16,11 @@ h1{
     font-size: 30px;
     width: 100%;
     font-weight: 100;
-<<<<<<< HEAD
 padding: 15px;
 
    
 
    
-=======
-    padding: 15px;
->>>>>>> b5302856231284ba970de9811fb95be51137c863
 }
 h2{
     font-weight: bolder;
@@ -81,7 +77,7 @@ body{
     height: 45px;
     font-size: 150%;
     font-weight: bold;
-    border: 2px solid black;
+    border: 1px solid black;
     position: relative;
   
 }
